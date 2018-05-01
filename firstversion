@@ -1,7 +1,9 @@
 <!DOCTYPE html>
+
+<script type='text/javascript' data-cfasync='false'>window.purechatApi = { l: [], t: [], on: function () { this.l.push(arguments); } }; (function () { var done = false; var script = document.createElement('script'); script.async = true; script.type = 'text/javascript'; script.src = 'https://app.purechat.com/VisitorWidget/WidgetScript'; document.getElementsByTagName('HEAD').item(0).appendChild(script); script.onreadystatechange = script.onload = function (e) { if (!done && (!this.readyState || this.readyState == 'loaded' || this.readyState == 'complete')) { var w = new PCWidget({c: 'e820dbd5-03fb-4bff-9f78-e875cbd6db0f', f: true }); done = true; } }; })();</script>
 <html>
   <head>
-    <title>Simple Map</title>
+    <title>Findme</title>
     <meta name="viewport" content="initial-scale=1.0">
     <meta charset="utf-8">
     <style>
@@ -24,7 +26,7 @@
       var map;
       function initMap() {
         map = new google.maps.Map(document.getElementById('map'), {
-          center: {lat: 31.771959, lng: 35.217018},
+          center: {lat: 31.771959, lng:  35.217018},
           zoom: 8
         });
       }
